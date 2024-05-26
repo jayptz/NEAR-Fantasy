@@ -75,7 +75,7 @@ max-height: fit-content;
     position: absolute;
     bottom: 5px;
     left: 50%;
-    transform: translateX(-50%); /* Move to the center */
+    transform: translateX(-50%);
     width: 0;
     height: 2px;
     background-color: #ff0037;
@@ -94,8 +94,8 @@ max-height: fit-content;
 .red-bg {
     background-position: center;
     background-size: cover;
-    height: 525px; /* Or set a specific height */
-    width: 100%; /* Or set a specific width */
+    height: 525px;
+    width: 100%;
 
     border-bottom: 1px solid white;
 }
@@ -103,7 +103,6 @@ max-height: fit-content;
 
 
 .title-text{
-    /* margin-left: 85px; */
     font-family: Fjalla One;
     font-size: 90px;
     color: rgb(225, 225, 225);
@@ -191,8 +190,8 @@ max-height: fit-content;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Set a higher z-index to ensure it appears above other content */
-    background-color: #000000; /* Change the background color to suit your design */
+    z-index: 1000;
+    background-color: #000000;
     border-bottom: 1px solid white;
 }
 
